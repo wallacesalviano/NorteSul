@@ -8,8 +8,8 @@
 }
 
 .vantagens__imagem{
-    max-width: 400px;
-    border-radius: 1rem;
+    max-width: 500px;
+    border-radius: 0.75rem 3rem;
 }
 
 .vantagens__lista{
