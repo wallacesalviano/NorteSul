@@ -1,0 +1,27 @@
+.vantagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.vantagens__imagem{
+    max-width: 400px;
+    border-radius: 1rem;
+}
+
+.vantagens__lista{
+    color: var(--cinza-escuro);
+    margin: 1.2rem;
+    font-size: 20px;
+}
+
+.vantagens__titulo{
+    font-size: 38px;
+}
+
+.vantagens__container{
+    max-width: 50vh;
+}

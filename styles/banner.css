@@ -1,0 +1,86 @@
+.banner__container {
+    display: flex;
+    background-color: var(--branco);
+    justify-content: center;
+    align-items: center; 
+    padding: 3rem;
+}
+
+.banner__titulo-menor{
+    color: var(--verde);
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.banner__titulo{
+    color: var(--preto);
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.banner__paragrafo{
+    color: var(--cinza-escuro);
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+.banner__container-interno{
+    width: 80vh;
+}
+
+/*Efeitos de butão*/
+.banner__btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    color: var(--branco);
+    font-family: var(--fonte-padrão);
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner__btn:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--azul);
+    border-radius: 5px;
+    z-index: -2;
+}
+
+.banner__btn:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--verde);
+    transition: all .7s;
+    border-radius: 5px ;
+    z-index: -1;
+}
+
+.banner__btn:hover {
+    color: var(--preto);
+
+    &:before {
+        width: 100%;
+    }
+}
+
+.banner__imagem {
+    max-width: 450px;
+    padding: 2rem;
+
+}
+
+
+    
