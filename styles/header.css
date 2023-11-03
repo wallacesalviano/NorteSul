@@ -4,7 +4,6 @@
   align-items: center;
   font-size: 20px;
   position: relative;
-  margin: 1em 5em;
   background: var(--branco);
   margin: 0 auto;
   padding: 2rem 3rem;
@@ -13,22 +12,26 @@
 }
 
 input[type=checkbox] {
-  display:none;
+  display: none;
 }
 
 .container__imagem {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .lista-menu {
   list-style: none;
   padding: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .lista-menu__item {
   margin: 1rem 1.5rem;
   position: relative;
   font-size: 19px;
+  align-items: center;
 }
 
 .lista-menu__item a {
@@ -37,7 +40,7 @@ input[type=checkbox] {
 }
 
 .lista-menu__item ::before,
-.lista-menu__item s::after {
+.lista-menu__item a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -120,16 +123,44 @@ input[type=checkbox] {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    background: var(--branco);
+    margin: 0 auto;
+    padding: 2rem 3rem;
+
+  }
+
+  .lista-menu {
+    list-style: none;
+    padding: 1rem;
+    gap: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lista-menu__item {
+    margin: 1rem 0.5rem;
+    position: relative;
+    font-size: 19px;
+    align-items: center;
+  }
+}
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 430px) {
   .cabeçalho__menu-hamburguer {
-    width: 24px;
     height: 24px;
     background-image: url("/imgs/Menu.png");
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
+    display: flex;
   }
 
   .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
@@ -142,11 +173,8 @@ input[type=checkbox] {
 
   .cabeçalho {
     background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    flex-direction: row-;
+
+    position: relative
   }
 
   .container {
@@ -202,7 +230,7 @@ input[type=checkbox] {
     color: var(--verde);
   }
 
-  .cabeçalho__contrate{
+  .cabeçalho__contrate {
     display: none;
   }
 }

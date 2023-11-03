@@ -26,16 +26,41 @@
     max-width: 50vh;
 }
 
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 768px){
+    .vantagens{
+        padding: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .vantagens__imagem{
+        width: 350px;
+        border-radius: 0px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .vantagens__titulo{
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
     .vantagens{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
+        padding: 2rem;
     }
     
     .vantagens__imagem{
-        max-width: 380px;
+        width: 350px;
         border-radius: 0px;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
