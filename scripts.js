@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
-  slidesPerView: 4,
+  slidesPerView: 3,
   loop: true,
 
   // If we need pagination
@@ -40,7 +40,8 @@ function inicializarScrollReveal() {
   sr.reveal('.cabeçalho', { duration: 1000 });
   sr.reveal('.banner', { duration: 1000 });
   sr.reveal('.carrossel', { duration: 1000 });
-  sr.reveal('.descritivo', { duration: 1000
+  sr.reveal('.descritivo', {
+    duration: 1000
   });
   sr.reveal('.vantagens', { duration: 1000 });
   sr.reveal('.about__reveal', { duration: 1000 });
