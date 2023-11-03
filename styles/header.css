@@ -75,6 +75,10 @@ input[type=checkbox] {
   color: var(--verde);
 }
 
+.btn__contrate-menu{
+  display: none;
+}
+
 .cabeçalho__contrate a {
   display: inline-block;
   padding: .75rem 1.5rem;
