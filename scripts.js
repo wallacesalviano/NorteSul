@@ -12,12 +12,6 @@ const swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 2000,
   },
-
-  // Navigation arrows
-  // navigation: {
-  //   nextEl: '.swiper-button-next',
-  //   prevEl: '.swiper-button-prev',
-  // },
 });
 
 // Criação do butão de ação de arrastar pra cima
@@ -38,3 +32,21 @@ function buttonScrollToTop() {
     });
   });
 }
+
+function inicializarScrollReveal() {
+  var sr = ScrollReveal({ reset: true });
+
+
+  sr.reveal('.cabeçalho', { duration: 1000 });
+  sr.reveal('.banner', { duration: 1000 });
+  sr.reveal('.carrossel', { duration: 1000 });
+  sr.reveal('.descritivo', { duration: 1000
+  });
+  sr.reveal('.vantagens', { duration: 1000 });
+  sr.reveal('.about__reveal', { duration: 1000 });
+  sr.reveal('.atuação', { duration: 1000 });
+  sr.reveal('.footer', { duration: 1000 });
+}
+
+inicializarScrollReveal();
+buttonScrollToTop();

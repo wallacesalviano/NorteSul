@@ -51,6 +51,7 @@ html{
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     text-align: center;
+    background-color: var(--azul);
 }
 
 .scroll-to-top-button i {
@@ -62,6 +63,6 @@ html{
 }
 
 .scroll-to-top-button:hover {
-    background-color: #555;
+    background-color: var(--verde);
     transform: scale(1.1);
 }

@@ -117,10 +117,12 @@ input[type=checkbox] {
 
 .cabeçalho__contrate a:hover {
   color: var(--preto);
-
+  transform: scale(1.1);
+  
   &:before {
     width: 100%;
   }
+  
 }
 
 @media screen and (max-width: 768px) {

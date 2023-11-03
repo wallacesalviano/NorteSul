@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -14,37 +15,9 @@
 </head>
 
 <body>
-    <!-- <header class="cabeçalho">
-        <div class="container">
-            <a href="index.html"><img src="/imgs/norte-sul-telecom.png" alt=""></a>
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__rotulo">
-                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-            </label>
-            <ul class="lista__menu">
-                <li class="lista__itens">
-                    <a class="lista-menu__link" href="#banner__id">Home</a>
-                </li>
-                <li class="lista__itens">
-                    <a class="lista-menu__link" href="#">Quem somos</a>
-                </li>
-                <li class="lista__itens">
-                    <a class="lista-menu__link" href="#descritivo__id">Soluções e Serviços</a>
-                </li>
-                <li class="lista__itens">
-                    <a class="lista-menu__link" href="#">Contato</a>
-                </li>
-            </ul>
-        </div>
-        <div class="cabeçalho__contrate">
-            <a href="https://api.whatsapp.com/send?phone=556137700148">Contrate</a>
-        </div>
-        </div>
-    </header> -->
-
     <header class="cabeçalho">
         <div class="container">
-            <img src="imgs/norte-sul-telecom.png" alt="Logo da Alurabooks" class="container__imagem">
+            <a href="index.html"><img src="imgs/norte-sul-telecom.png" alt="Logo da Alurabooks" class="container__imagem"></a>
             <input type="checkbox" id="menu" class="container__botao">
             <label for="menu" class="container__rotulo">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
@@ -57,10 +30,10 @@
                     <a href="#" class="lista-menu__link">Quem somos</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Serviços</a>
+                    <a href="#descritivo__id" class="lista-menu__link">Serviços</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Contato</a>
+                    <a href="#footer_subscribe" class="lista-menu__link">Contato</a>
                 </li>
             </ul>
             <div class="cabeçalho__contrate">
@@ -69,7 +42,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="banner">
         <div id="banner__id" class="banner__container">
             <div class="banner__container-interno">
                 <h3 class="banner__titulo-menor">BEM-VINDO(A) A Norte Sul Engenharia</h3>
@@ -112,9 +85,6 @@
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
 
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
             </div>
 
         </div>
@@ -173,7 +143,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div id="footer_content">
             <div id="footer_contacts">
                 <img src="imgs/norte-sul-telecom.png" alt="">

@@ -70,6 +70,7 @@
 
 .banner__btn:hover {
     color: var(--preto);
+    transform: scale(1.1);
 
     &:before {
         width: 100%;

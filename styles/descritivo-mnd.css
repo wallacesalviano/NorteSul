@@ -1,6 +1,6 @@
 .descritivo-mnd__titulo-menor {
     color: var(--verde);
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -20,8 +20,8 @@
 
 .descritivo-mnd__titulo {
     color: var(--preto);
-    font-size: 38px;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
 }
 
 .descritivo-mnd__paragrafo{
