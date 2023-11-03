@@ -7,7 +7,7 @@
     font-size: 30px;
     display: inline-block;
     position: relative;
-    margin-bottom: 5rem;
+    margin: 1rem 0.75rem 3rem;
 }  
 
 .carrossel__titulo::before{
