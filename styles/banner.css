@@ -82,5 +82,40 @@
 
 }
 
+@media screen and (max-width: 1024px){
+    .banner__container{
+        background-image: url(/imgs/background.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+    }
+    
+    .banner__container-interno{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
 
+    .banner__titulo-menor{
+        font-size: 15px;
+        margin: auto;
+    }
+    .banner__titulo{
+        font-size: 28px;
+    }
+    .banner__paragrafo{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .banner__imagem{
+       display: none;
+    }
+    .banner__btn{
+        font-size: 15px;
+        border-radius: 80px;
+    }
+}
     

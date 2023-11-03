@@ -35,3 +35,18 @@
     padding: 2rem;
     border-radius: 3rem;
 }
+
+
+@media screen and (max-width: 1024px){
+    .descritivo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .descritivo-mnd__imagem{
+        max-width: 440px;
+        border-radius: 0;
+    }
+}

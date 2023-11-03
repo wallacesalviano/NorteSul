@@ -84,3 +84,30 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .atuação__titulo{
+        font-size: 25px;
+    }
+    
+    .atuação__container{
+      max-width: 80vh;
+    }
+    
+    .atuação__imagem {
+      display: none;
+    }
+  
+    .atuação__paragrafo {
+      font-size: 15px;
+      max-width: 50vh;
+    }
+  
+    .atuação__btn{
+      border-radius: 80px;
+      padding: 1rem;
+      font-size: 15px;
+      text-align: center;
+      margin: 0 2rem;
+    }
+  } 

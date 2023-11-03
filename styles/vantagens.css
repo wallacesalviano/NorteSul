@@ -25,3 +25,27 @@
 .vantagens__container{
     max-width: 50vh;
 }
+
+@media screen and (max-width: 1024px){
+    .vantagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+    .vantagens__imagem{
+        max-width: 380px;
+        border-radius: 0px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .vantagens__titulo{
+        font-size: 28px;
+    }
+
+    .vantagens__lista{
+        font-size: 18px;
+    }
+}

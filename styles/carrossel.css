@@ -43,3 +43,14 @@
     text-align: center;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 1024px){
+    .carrossel__titulo{
+        font-size: 20px;
+    }
+
+    .carrossel__container{
+        max-width: 100px;
+    }
+
+}
